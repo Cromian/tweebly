@@ -67,6 +67,7 @@ p {
     background-color: #fbfbfb;
     border-radius: 8px;
     border: 1px solid #eee;
+    padding-left: 40px;
 }
 
 .funline {
@@ -105,4 +106,21 @@ p {
 
 .cc a {
     color: black;
+}
+
+#wiki:before {
+    font-family: FontAwesome;
+    content: "\f266";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 100%;
+    font-size: 25px;
+    margin-left: -70px;
+    margin-top: 40px;
 }

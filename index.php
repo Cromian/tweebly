@@ -22,7 +22,7 @@
 </header>
 
 <main>
-    <div class="content">
+    <div class="content" id="wiki">
         <h1><a href="<?php echo $wiki_data['url'];?>"><?php echo $wiki_data['title']; ?></a></h1>
         <p>
             <?php  
