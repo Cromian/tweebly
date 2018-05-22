@@ -6,7 +6,7 @@
 <html>
 <head>
     <title>Tweebly's Fascinating Dailies</title>
-    <meta name="description" content="A daily literature of random fascinating and delectably intriguing information.">
+    <meta name="description" content="A daily literature of fascinating and delectably intriguing information.">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
 </head>
 <body>
 
-<div class="funline">A daily literature of random fascinating and delectably intriguing information.</div>
+<div class="funline">A daily literature of fascinating and delectably intriguing information.</div>
 <header>
     <div class="logo" alt="logo"></div>
     <div id="date"></div>
