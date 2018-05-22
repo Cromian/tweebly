@@ -30,8 +30,8 @@
                 // Loop through every 5th period and add a line break
                 $content = $wiki_data['content']; ;
                 $content = preg_replace('/(.+?)\. (.+?)\. /', '$1. $2.<br><br>', $content);
-
                 echo $content;
+                
             ?>
         </p>
         <div class="credit"> - <a href="<?php echo $wiki_data['url'];?>">Wikipedia</a></div>
