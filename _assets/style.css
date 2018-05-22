@@ -1,0 +1,108 @@
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Cormorant:500');
+
+
+body {
+    font-family: 'Cormorant', serif;
+    font-size: 21px;
+    line-height: 1.43;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    line-height: 1;
+    /* margin-bottom: -10px; */
+    margin-top: 0px;
+}
+
+
+main, header {
+    max-width: 800px;
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    color: #0079b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    line-height:  30px;
+}
+
+.logo {
+    display: block;
+    background-image: url('logo.svg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    max-width: 500px;
+    width: 95%;
+    height: 200px;
+}
+
+#date {
+    color: grey;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.content {
+    margin: auto;
+    max-width: 80ch;
+    padding: 20px;
+    background-color: #fbfbfb;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.funline {
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 90%;
+    padding: 3px;
+}
+
+.fa-wikipedia-w {
+    background: black;
+    color: white;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+    font-size: 70%;
+    line-height: 65px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+.credit {
+    text-align: right;
+}
+
+.cc {
+    font-size: medium;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.cc a {
+    color: black;
+}
