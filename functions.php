@@ -65,6 +65,7 @@ function getWikiData() {
             "meta" => $wiki_meta,
             "content" => $wiki_content
         );
+    
 
         // Parse data from wiki array
         $id = $wiki_data['meta']['query']['pageids'][0];
@@ -87,8 +88,16 @@ function getWikiData() {
     } 
     else 
     {
+    
         // Load saved data within a day period
         $wiki_data = json_decode(file_get_contents($data_file), true);
+        
+        // Re-run if item matches items listed in the filter.
+        include ('no_nos.php');
+        if (stripos(json_encode($no_nos), $wiki_data['title']) !== false) {
+            file_put_contents('_data/timestamp.txt', '');
+        }
+    
     }
 
     // Return Data Array

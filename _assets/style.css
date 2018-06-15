@@ -124,3 +124,22 @@ p {
     margin-left: -70px;
     margin-top: 40px;
 }
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    padding: 10px;
+    background-color: #e48d88;
+    color: white;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: #f5938f
+}
